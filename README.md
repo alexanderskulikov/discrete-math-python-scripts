@@ -1,4 +1,4 @@
-# Python Code Snippets for Discrete Mathematics Course
+# Python Code Snippets for Discrete Mathematics
 
 ![specialization logo](notebooks/images/logo_specialization.png)
 
@@ -8,7 +8,7 @@ This repository contains Python code snippets from the [Discrete Mathematics for
 ## Table of Contents
 
 ### Mathematical Thinking in Computer Science
-![specialization logo](notebooks/images/logo_proofs.png)
+![First course logo](notebooks/images/logo_proofs.png)
 
 #### [Proofs: Convincing Arguments](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/01_proofs_convincing_arguments.ipynb)
 
@@ -32,3 +32,33 @@ Mathematical logic plays a crucial and indispensable role in creating convincing
 
 
 “There are things that never change.” Apart from being just a philosophical statement, this phrase turns out to be an important idea in discrete mathematics and computer science. A property that is preserved during a process is called an invariant. Invariants are widely used in analyzing the behavior of algorithms, programs, and other processes. In this chapter, we will develop the important skill of finding the right invariant for a problem.
+
+
+### Combinatorics and Probability
+![Second course logo](notebooks/images/logo_combinatorics.png)
+
+#### Starting to Count
+
+Counting is one of the basic mathematically related tasks we encounter on a daily basis. The main question here is the following: can we count the number of objects without listing all of them? This question arises naturally in various scenarios both in real life and in Computer Science. What is the number of phone numbers or license plates? What is the number of combinations one needs to brute force in order to crack a password? Is there a way to tell that an algorithm will run in a reasonable time before implementing and running it? All these questions are addressed by a mathematical field called combinatorics.
+
+In this chapter, we consider the basic building blocks of combinatorics. All of them are easy to understand and at the same time are powerful enough to handle various non-trivial questions. To help you to develop an intuition, we consider short Python code snippets for generating the objects to be counted.
+
+#### Binomial Coefficients
+
+In how many ways one can select a team of five students out of ten students? What is the number of non-negative integers with at most five digits whose digits are decreasing? In how many ways one can get from the bottom left cell to the top right cell of a 6×6 grid, each time going either up or to the right? And why all these three numbers are equal? We’ll figure this out in this chapter!
+
+#### Advanced Counting
+
+In how many ways one can distribute ten candies to four kids? What is the number of credit card PINs with non-increasing digits? What is the number of non-negative integer solutions of an equation x1 + x2 + x3 + x4 = 10? It turns out that this is essentially the same problem. The corresponding selection scheme is known as combinations with repetitions. In this chapter, we derive a formula for counting such objects using a powerful stars-and-bars method. We’ll practice applying this method to many problems that have nothing in common on the first sight.
+
+#### Probability
+
+The word “probability” is used frequently in the everyday life. We often say that something is probable, or that one outcome looks more probable than another one. However, not always we can speak about probability as some number: for that, a mathematical model is needed. What is this mathematical model (probability space)? How to compute probabilities (if the model is given)? How to judge whether the model is adequate? What is conditional probability and Bayes’ theorem? How our plausible reasoning can be interpreted in terms of Bayes’ theorem? In this chapter, we cover these questions using simple examples of probability spaces and real life situations.
+
+#### Random Variables
+
+In the previous chapter, we discussed how to compute probabilities of random events: say, the probability of getting three heads out of seven coin tosses or the probability of winning a car if you switch the door after you see a goat behind the opened door. At the same time, an outcome of many random experiments is not just an event, but a number (a measurement of something). For example, one may want to estimate gambling winnings, or an income of a random person in a group of people, or the number of steps of a randomized algorithm. In this chapter, we discuss random variables, a mathematical model that allows to compute quantitative characteristics of random experiments.
+
+#### Dice Games
+
+In this chapter, we will apply accumulated knowledge to analyze a simple dice game. In the game, each of two players selects a dice from a given pool of dice. Then, they throw their dice, and the one with a larger number wins. What can be simpler, right? Somewhat counterintuitively, the game turns out to be not as simple as it looks. We will see some surprising properties of this game and will implement an optimal strategy for playing this game.
