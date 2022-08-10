@@ -1,4 +1,4 @@
-# Python Code Snippets for Discrete Mathematics
+# Interactive Python Code Snippets for Discrete Mathematics
 
 ![specialization logo](notebooks/images/logo_specialization.png)
 
