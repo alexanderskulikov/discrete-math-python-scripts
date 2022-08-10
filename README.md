@@ -37,17 +37,17 @@ Mathematical logic plays a crucial and indispensable role in creating convincing
 ### Combinatorics and Probability
 ![Second course logo](notebooks/images/logo_combinatorics.png)
 
-#### Starting to Count
+#### [Starting to Count](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/06_basic_counting.ipynb)
 
 Counting is one of the basic mathematically related tasks we encounter on a daily basis. The main question here is the following: can we count the number of objects without listing all of them? This question arises naturally in various scenarios both in real life and in Computer Science. What is the number of phone numbers or license plates? What is the number of combinations one needs to brute force in order to crack a password? Is there a way to tell that an algorithm will run in a reasonable time before implementing and running it? All these questions are addressed by a mathematical field called combinatorics.
 
 In this chapter, we consider the basic building blocks of combinatorics. All of them are easy to understand and at the same time are powerful enough to handle various non-trivial questions. To help you to develop an intuition, we consider short Python code snippets for generating the objects to be counted.
 
-#### Binomial Coefficients
+#### [Binomial Coefficients](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/07_binomial_coefficients.ipynb)
 
 In how many ways one can select a team of five students out of ten students? What is the number of non-negative integers with at most five digits whose digits are decreasing? In how many ways one can get from the bottom left cell to the top right cell of a 6×6 grid, each time going either up or to the right? And why all these three numbers are equal? We’ll figure this out in this chapter!
 
-#### Advanced Counting
+#### [Advanced Counting](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/08_advanced_counting.ipynb)
 
 In how many ways one can distribute ten candies to four kids? What is the number of credit card PINs with non-increasing digits? What is the number of non-negative integer solutions of an equation x1 + x2 + x3 + x4 = 10? It turns out that this is essentially the same problem. The corresponding selection scheme is known as combinations with repetitions. In this chapter, we derive a formula for counting such objects using a powerful stars-and-bars method. We’ll practice applying this method to many problems that have nothing in common on the first sight.
 
