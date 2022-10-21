@@ -51,7 +51,7 @@ In how many ways one can select a team of five students out of ten students? Wha
 
 In how many ways one can distribute ten candies to four kids? What is the number of credit card PINs with non-increasing digits? What is the number of non-negative integer solutions of an equation x1 + x2 + x3 + x4 = 10? It turns out that this is essentially the same problem. The corresponding selection scheme is known as combinations with repetitions. In this chapter, we derive a formula for counting such objects using a powerful stars-and-bars method. We’ll practice applying this method to many problems that have nothing in common on the first sight.
 
-#### Probability
+#### [Probability](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/09_probability.ipynb)
 
 The word “probability” is used frequently in the everyday life. We often say that something is probable, or that one outcome looks more probable than another one. However, not always we can speak about probability as some number: for that, a mathematical model is needed. What is this mathematical model (probability space)? How to compute probabilities (if the model is given)? How to judge whether the model is adequate? What is conditional probability and Bayes’ theorem? How our plausible reasoning can be interpreted in terms of Bayes’ theorem? In this chapter, we cover these questions using simple examples of probability spaces and real life situations.
 
