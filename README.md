@@ -30,8 +30,11 @@ Mathematical logic plays a crucial and indispensable role in creating convincing
 
 #### [Invariants](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/05_invariants.ipynb)
 
-
 “There are things that never change.” Apart from being just a philosophical statement, this phrase turns out to be an important idea in discrete mathematics and computer science. A property that is preserved during a process is called an invariant. Invariants are widely used in analyzing the behavior of algorithms, programs, and other processes. In this chapter, we will develop the important skill of finding the right invariant for a problem.
+
+#### [Appendix: SAT and ILP Solvers](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/07_sat_and_ilp.ipynb)
+
+In this chapter, we show how to use SAT and ILP solvers to handle difficult combinatorial problems in practice.
 
 
 ### Combinatorics and Probability
