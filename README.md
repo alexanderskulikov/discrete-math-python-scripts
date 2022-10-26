@@ -34,7 +34,15 @@ Mathematical logic plays a crucial and indispensable role in creating convincing
 
 #### [Appendix: SAT and ILP Solvers](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/07_sat_and_ilp.ipynb)
 
-In this chapter, we show how to use SAT and ILP solvers to handle difficult combinatorial problems in practice.
+In this chapter, we show that it is surprisingly easy
+to use SAT and ILP solvers
+to handle difficult combinatorial problems
+in practice. To demonstrate this, we will implement
+together simple programs for the following puzzles: Sudoku,
+8 Queens, and 16 Diagonals. When doing this, we follow the
+declarative programming paradigm:
+we explain the rules of the puzzle to a solver,
+the solver then finds a solution.
 
 
 ### Combinatorics and Probability
