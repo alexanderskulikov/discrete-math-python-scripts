@@ -66,18 +66,18 @@ In how many ways one can distribute ten candies to four kids? What is the number
 
 The word “probability” is used frequently in the everyday life. We often say that something is probable, or that one outcome looks more probable than another one. However, not always we can speak about probability as some number: for that, a mathematical model is needed. What is this mathematical model (probability space)? How to compute probabilities (if the model is given)? How to judge whether the model is adequate? What is conditional probability and Bayes’ theorem? How our plausible reasoning can be interpreted in terms of Bayes’ theorem? In this chapter, we cover these questions using simple examples of probability spaces and real life situations.
 
-#### Random Variables
+#### [Random Variables](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/12_random_variables.ipynb)
 
 In the previous chapter, we discussed how to compute probabilities of random events: say, the probability of getting three heads out of seven coin tosses or the probability of winning a car if you switch the door after you see a goat behind the opened door. At the same time, an outcome of many random experiments is not just an event, but a number (a measurement of something). For example, one may want to estimate gambling winnings, or an income of a random person in a group of people, or the number of steps of a randomized algorithm. In this chapter, we discuss random variables, a mathematical model that allows to compute quantitative characteristics of random experiments.
 
-#### Dice Games
+#### [Dice Games](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/13_dice_games.ipynb)
 
 In this chapter, we will apply accumulated knowledge to analyze a simple dice game. In the game, each of two players selects a dice from a given pool of dice. Then, they throw their dice, and the one with a larger number wins. What can be simpler, right? Somewhat counterintuitively, the game turns out to be not as simple as it looks. We will see some surprising properties of this game and will implement an optimal strategy for playing this game.
 
 ### Number Theory and Cryptography
 ![Number Theory logo](notebooks/images/logo_numbers.png)
 
-#### Modular Arithmetic
+#### [Modular Arithmetic](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/14_modular_arithmetic.ipynb)
 
 A prominent number theorist Godfrey Hardy said in 1915  that "The Theory of Numbers has always been regarded as one of the most obviously useless branches of Pure Mathematics". In 1940 he wrote in his book *A mathematician's apology* that "The *real* mathematics of the *real* mathematicians, the mathematics of Fermat and Euler and Gauss and Abel and Riemann, is almost wholly *useless*".
 
@@ -85,7 +85,7 @@ Just 30 years after his death, an algorithm for encryption of secret messages wa
 
 Cryptography is not the only reason to learn number theory. As Donald Knuth said, "virtually every theorem in elementary number theory arises in a natural, motivated way in connection with the problem of making computers do high-speed numerical calculations". In this chapter, we will learn a bit of number theory, starting with basic definitions and results.
 
-#### Euclid's Algorithm
+#### [Euclid's Algorithm](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/15_euclids_algorithm.ipynb)
 
 In this chapter, we study Euclid's algorithm and its applications. This fundamental algorithm is the main stepping-stone for understanding much of modern cryptography. Not only does this algorithm find the greatest common divisor of two numbers (which is an incredibly important problem by itself), but its extended version also gives an efficient way to solve Diophantine equations and compute modular inverses.
 
