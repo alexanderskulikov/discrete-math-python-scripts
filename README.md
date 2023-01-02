@@ -8,7 +8,7 @@ This repository contains Python code snippets from the [Discrete Mathematics for
 ## Table of Contents
 
 ### Mathematical Thinking in Computer Science
-![First course logo](notebooks/images/logo_proofs.png)
+![Mathematical Thinking logo](notebooks/images/logo_proofs.png)
 
 #### [Proofs: Convincing Arguments](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/01_proofs_convincing_arguments.ipynb)
 
@@ -46,23 +46,23 @@ the solver then finds a solution.
 
 
 ### Combinatorics and Probability
-![Second course logo](notebooks/images/logo_combinatorics.png)
+![Combinatorics logo](notebooks/images/logo_combinatorics.png)
 
-#### [Starting to Count](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/06_basic_counting.ipynb)
+#### [Starting to Count](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/08_basic_counting.ipynb)
 
 Counting is one of the basic mathematically related tasks we encounter on a daily basis. The main question here is the following: can we count the number of objects without listing all of them? This question arises naturally in various scenarios both in real life and in Computer Science. What is the number of phone numbers or license plates? What is the number of combinations one needs to brute force in order to crack a password? Is there a way to tell that an algorithm will run in a reasonable time before implementing and running it? All these questions are addressed by a mathematical field called combinatorics.
 
 In this chapter, we consider the basic building blocks of combinatorics. All of them are easy to understand and at the same time are powerful enough to handle various non-trivial questions. To help you to develop an intuition, we consider short Python code snippets for generating the objects to be counted.
 
-#### [Binomial Coefficients](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/07_binomial_coefficients.ipynb)
+#### [Binomial Coefficients](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/09_binomial_coefficients.ipynb)
 
 In how many ways one can select a team of five students out of ten students? What is the number of non-negative integers with at most five digits whose digits are decreasing? In how many ways one can get from the bottom left cell to the top right cell of a 6×6 grid, each time going either up or to the right? And why all these three numbers are equal? We’ll figure this out in this chapter!
 
-#### [Advanced Counting](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/08_advanced_counting.ipynb)
+#### [Advanced Counting](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/10_advanced_counting.ipynb)
 
 In how many ways one can distribute ten candies to four kids? What is the number of credit card PINs with non-increasing digits? What is the number of non-negative integer solutions of an equation x1 + x2 + x3 + x4 = 10? It turns out that this is essentially the same problem. The corresponding selection scheme is known as combinations with repetitions. In this chapter, we derive a formula for counting such objects using a powerful stars-and-bars method. We’ll practice applying this method to many problems that have nothing in common on the first sight.
 
-#### [Probability](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/09_probability.ipynb)
+#### [Probability](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/11_probability.ipynb)
 
 The word “probability” is used frequently in the everyday life. We often say that something is probable, or that one outcome looks more probable than another one. However, not always we can speak about probability as some number: for that, a mathematical model is needed. What is this mathematical model (probability space)? How to compute probabilities (if the model is given)? How to judge whether the model is adequate? What is conditional probability and Bayes’ theorem? How our plausible reasoning can be interpreted in terms of Bayes’ theorem? In this chapter, we cover these questions using simple examples of probability spaces and real life situations.
 
@@ -73,3 +73,33 @@ In the previous chapter, we discussed how to compute probabilities of random eve
 #### Dice Games
 
 In this chapter, we will apply accumulated knowledge to analyze a simple dice game. In the game, each of two players selects a dice from a given pool of dice. Then, they throw their dice, and the one with a larger number wins. What can be simpler, right? Somewhat counterintuitively, the game turns out to be not as simple as it looks. We will see some surprising properties of this game and will implement an optimal strategy for playing this game.
+
+### Number Theory and Cryptography
+![Number Theory logo](notebooks/images/logo_numbers.png)
+
+#### Modular Arithmetic
+
+A prominent number theorist Godfrey Hardy said in 1915  that "The Theory of Numbers has always been regarded as one of the most obviously useless branches of Pure Mathematics". In 1940 he wrote in his book *A mathematician's apology* that "The *real* mathematics of the *real* mathematicians, the mathematics of Fermat and Euler and Gauss and Abel and Riemann, is almost wholly *useless*".
+
+Just 30 years after his death, an algorithm for encryption of secret messages was developed by Ron Rivest, Adi Shamir and Leonard Adleman.  It was called  RSA after the names of its authors, and its implementation is probably the most frequently used computer program in the world nowadays. As you will see, some results of Fermat and Euler play a central role in this algorithm; much more advanced tools from algebra and number theory (e.g., elliptical curves) are used in other modern cryptographic algorithms.
+
+Cryptography is not the only reason to learn number theory. As Donald Knuth said, "virtually every theorem in elementary number theory arises in a natural, motivated way in connection with the problem of making computers do high-speed numerical calculations". In this chapter, we will learn a bit of number theory, starting with basic definitions and results.
+
+#### Euclid's Algorithm
+
+In this chapter, we study Euclid's algorithm and its applications. This fundamental algorithm is the main stepping-stone for understanding much of modern cryptography. Not only does this algorithm find the greatest common divisor of two numbers (which is an incredibly important problem by itself), but its extended version also gives an efficient way to solve Diophantine equations and compute modular inverses.
+
+#### Building Blocks for Cryptography
+
+Number theory is not only an old and beautiful branch of mathematics, but is also (surprise!) practically useful in an everyday sense. When you pay with a credit card or connect to a website, cryptographic protocols using number-theoretic tools operate behind the scenes.
+In this chapter,
+we discuss some of these tools.
+
+#### Cryptography
+
+Modern cryptography has developed the most during the World War I and World War II, because everybody was spying on everybody. We will tell this story and see why simple ciphers didn't work anymore. We will learn that shared secret key must be changed for every communication if one wants it to be secure. This
+is problematic when the demand for secure communication is skyrocketing, and the communicating parties can be on different continents. We will then discuss
+the famous RSA cryptosystem that allows parties to exchange secret keys
+such that
+no eavesdropper is able to decipher these secret keys in any reasonable time.
+After that, we will implement a few attacks against incorrectly implemented RSA!
