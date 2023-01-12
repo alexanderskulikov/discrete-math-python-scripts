@@ -89,7 +89,7 @@ Cryptography is not the only reason to learn number theory. As Donald Knuth said
 
 In this chapter, we study Euclid's algorithm and its applications. This fundamental algorithm is the main stepping-stone for understanding much of modern cryptography. Not only does this algorithm find the greatest common divisor of two numbers (which is an incredibly important problem by itself), but its extended version also gives an efficient way to solve Diophantine equations and compute modular inverses.
 
-#### Building Blocks for Cryptography
+#### [Building Blocks for Cryptography](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/16_building_blocks_for_cryptography.ipynb)
 
 Number theory is not only an old and beautiful branch of mathematics, but is also (surprise!) practically useful in an everyday sense. When you pay with a credit card or connect to a website, cryptographic protocols using number-theoretic tools operate behind the scenes.
 In this chapter,
