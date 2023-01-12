@@ -95,7 +95,7 @@ Number theory is not only an old and beautiful branch of mathematics, but is als
 In this chapter,
 we discuss some of these tools.
 
-#### Cryptography
+#### [Cryptography](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/17_cryptography.ipynb)
 
 Modern cryptography has developed the most during the World War I and World War II, because everybody was spying on everybody. We will tell this story and see why simple ciphers didn't work anymore. We will learn that shared secret key must be changed for every communication if one wants it to be secure. This
 is problematic when the demand for secure communication is skyrocketing, and the communicating parties can be on different continents. We will then discuss
