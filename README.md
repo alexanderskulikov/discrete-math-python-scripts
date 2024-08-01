@@ -74,6 +74,14 @@ In the previous chapter, we discussed how to compute probabilities of random eve
 
 In this chapter, we will apply accumulated knowledge to analyze a simple dice game. In the game, each of two players selects a dice from a given pool of dice. Then, they throw their dice, and the one with a larger number wins. What can be simpler, right? Somewhat counterintuitively, the game turns out to be not as simple as it looks. We will see some surprising properties of this game and will implement an optimal strategy for playing this game.
 
+### Graph Theory
+![Graphs logo](notebooks/images/logo_graphs.png)
+
+#### [What is a Graph?](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/18_what_is_a_graph.ipynb)
+
+What are graphs? What do we need them for? A graph is a simple yet incredibly useful concept, which has found many applications in virtually every branch of mathematics and computer science. We use graph applications daily. To name a few: cellphone networks, GPS navigation, and internet search queries. In this chapter, we'll learn what graphs are, when and how to use them, and how to work with them in Python.
+
+
 ### Number Theory and Cryptography
 ![Number Theory logo](notebooks/images/logo_numbers.png)
 
