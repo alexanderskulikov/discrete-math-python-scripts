@@ -72,7 +72,7 @@ In the previous chapter, we discussed how to compute probabilities of random eve
 
 #### [Dice Games](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/13_dice_games.ipynb)
 
-In this chapter, we will apply accumulated knowledge to analyze a simple dice game. In the game, each of two players selects a dice from a given pool of dice. Then, they throw their dice, and the one with a larger number wins. What can be simpler, right? Somewhat counterintuitively, the game turns out to be not as simple as it looks. We will see some surprising properties of this game and will implement an optimal strategy for playing this game.
+We'll apply accumulated knowledge to analyze a simple dice game. In the game, each of two players selects a dice from a given pool of dice. Then, they throw their dice, and the one with a larger number wins. What can be simpler, right? Somewhat counterintuitively, the game turns out to be not as simple as it looks. We will see some surprising properties of this game and will implement an optimal strategy for playing this game.
 
 ### Graph Theory
 ![Graphs logo](notebooks/images/logo_graphs.png)
@@ -81,6 +81,17 @@ In this chapter, we will apply accumulated knowledge to analyze a simple dice ga
 
 What are graphs? What do we need them for? A graph is a simple yet incredibly useful concept, which has found many applications in virtually every branch of mathematics and computer science. We use graph applications daily. To name a few: cellphone networks, GPS navigation, and internet search queries. In this chapter, we'll learn what graphs are, when and how to use them, and how to work with them in Python.
 
+#### [Cycles](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/19_cycles.ipynb)
+
+We'll consider connected components of a graph and how they can be used to implement a simple program for solving the Guarini puzzle and for proving optimality of a certain protocol. We'll see how to find a valid ordering of a to-do list or project dependency graph. Finally, we'll figure out the dramatic difference between seemingly similar Eulerian cycles and Hamiltonian cycles, and we'll see how they are used in genome assembly!
+
+#### [Graph Classes](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/20_graph_classes.ipynb)
+
+We'll study three main graph classes: trees, bipartite graphs, and planar graphs. We'll define minimum spanning trees, and then develop an algorithm which finds the cheapest way to connect arbitrary cities. We'll study matchings in bipartite graphs, and see when a set of jobs can be filled by applicants. We'll also learn what planar graphs are, and see when subway stations can be connected without intersections.
+
+#### [Graph Parameters](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/21_graph_parameters.ipynb)
+
+We'll focus on the graph parameters and related problems. First, we'll define graph colorings, and see why political maps can be colored in just four colors. Then, we will see how cliques and independent sets are related in graphs. Using these notions, we'll prove Ramsey Theorem that states that in a large system, complete disorder is impossible. Finally, we'll study vertex covers, and learn how to find the minimum number of computers that control all network connections.
 
 ### Number Theory and Cryptography
 ![Number Theory logo](notebooks/images/logo_numbers.png)
@@ -95,13 +106,11 @@ Cryptography is not the only reason to learn number theory. As Donald Knuth said
 
 #### [Euclid's Algorithm](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/15_euclids_algorithm.ipynb)
 
-In this chapter, we study Euclid's algorithm and its applications. This fundamental algorithm is the main stepping-stone for understanding much of modern cryptography. Not only does this algorithm find the greatest common divisor of two numbers (which is an incredibly important problem by itself), but its extended version also gives an efficient way to solve Diophantine equations and compute modular inverses.
+We'll study Euclid's algorithm and its applications. This fundamental algorithm is the main stepping-stone for understanding much of modern cryptography. Not only does this algorithm find the greatest common divisor of two numbers (which is an incredibly important problem by itself), but its extended version also gives an efficient way to solve Diophantine equations and compute modular inverses.
 
 #### [Building Blocks for Cryptography](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/16_building_blocks_for_cryptography.ipynb)
 
-Number theory is not only an old and beautiful branch of mathematics, but is also (surprise!) practically useful in an everyday sense. When you pay with a credit card or connect to a website, cryptographic protocols using number-theoretic tools operate behind the scenes.
-In this chapter,
-we discuss some of these tools.
+Number theory is not only an old and beautiful branch of mathematics, but is also (surprise!) practically useful in an everyday sense. When you pay with a credit card or connect to a website, cryptographic protocols using number-theoretic tools operate behind the scenes. In this chapter, we discuss some of these tools.
 
 #### [Cryptography](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/17_cryptography.ipynb)
 
