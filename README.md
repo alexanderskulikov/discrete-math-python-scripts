@@ -93,7 +93,7 @@ We'll study three main graph classes: trees, bipartite graphs, and planar graphs
 
 We'll focus on the graph parameters and related problems. First, we'll define graph colorings, and see why political maps can be colored in just four colors. Then, we will see how cliques and independent sets are related in graphs. Using these notions, we'll prove Ramsey Theorem that states that in a large system, complete disorder is impossible. Finally, we'll study vertex covers, and learn how to find the minimum number of computers that control all network connections.
 
-#### [Flows and matchings](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/22_maximum_flow.ipynb)
+#### [Flows and Matchings](https://colab.research.google.com/github/alexanderskulikov/discrete-math-python-scripts/blob/master/notebooks/22_maximum_flow.ipynb)
 
 We'll develop an algorithm that finds the maximum amount of water which can be routed in a given water supply network. This algorithm is also used in practice for optimization of road traffic and airline scheduling.
 
